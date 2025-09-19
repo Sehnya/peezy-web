@@ -1,0 +1,56 @@
+{
+  "$schema": "https://peezy.dev/schemas/peezy.lock.schema.json",
+  "peezyVersion": "0.1.5",
+  "formatVersion": 1,
+  "project": {
+    "name": "peezy",
+    "createdAt": "2025-09-19T12:52:40.672Z"
+  },
+  "template": {
+    "name": "react-spa-advanced",
+    "version": "latest",
+    "source": {
+      "type": "local",
+      "path": "/opt/homebrew/lib/node_modules/peezy-cli/templates/react-spa-advanced"
+    },
+    "engine": "dir"
+  },
+  "options": {
+    "flags": {
+      "installDeps": true,
+      "initGit": true
+    },
+    "answers": {}
+  },
+  "checksums": {
+    "files": {
+      ".dockerignore": "sha256-2c0f839255c20734ad07fb81d59c6e15e65b757199d483b2f0122c4c8eb9cd72",
+      ".env.example": "sha256-d219ec60b732ecccf69ac51aa93bac7d602f95257633f8762255f584e7937b21",
+      ".eslintrc.json": "sha256-bb6744cc152720160e6e8bd810d8231decef793adb9f2a3da9e7860159b50093",
+      "Dockerfile": "sha256-eacdf5c0508ffdcfe97b3e6878e6e8e6684d4f33cded5c6970286cea51a95a3a",
+      "README.md": "sha256-32891d951410d36ddd8413958697cbced5c1db2d826dd4f39529fff628a2976a",
+      "index.html": "sha256-9201c5bcdc9393f1aff38ed67784f5a35a2e79d29238e8d8ca8b33e2264a82fe",
+      "nginx.conf": "sha256-a208a43503302ae89fb492f6c348d127032d7ebae0029e05a98f1476d0536012",
+      "package.json": "sha256-c7d0ca0a3cf0ab3e6a3bbb923527d58fac0bd2927bd9a2c4ab5444dea0633d93",
+      "postcss.config.js": "sha256-e32657baf631d7c5f4dc67b4b2ee0ec8e7d5b3c41860e09cddce7c0377cd80bc",
+      "public/vite.svg": "sha256-e9e2ffcf370b94b9bbe416a410742f3b798acb08e5e7f671e6d84313c1bbd0ed",
+      "src/App.tsx": "sha256-e1cdc22a6df549e490f3597a29a2c7a8c96dac974a063747dcb75fca3b5c3f35",
+      "src/components/layout/Layout.tsx": "sha256-d3136659affd85e459aa9eb116632c8f7f9d9fe28dabf6851ca74bde3b9ec089",
+      "src/components/layout/Navigation.tsx": "sha256-6e323bd665b4fa3e3d7b3eb5a9b20cd0745e9e3e7ae51810815159b54a6c2917",
+      "src/components/ui/Button.tsx": "sha256-3f319c312694cd0a91a901e7b207880c83e1a3bce20552a40625105e6967233b",
+      "src/index.css": "sha256-5f7149b371101de08798f489bc4bf1a1f029685e8adbcc83d811b31c958fb576",
+      "src/main.tsx": "sha256-f737bcefd0bf225d4302311af013307be60418758a2877345c2251be058982e1",
+      "src/pages/AboutPage.tsx": "sha256-0ca4365bdfabd65186bf61aaca10879dfd9e48d85d4f661aa8151b36efa10ebf",
+      "src/pages/ContactPage.tsx": "sha256-0493e1b79fb900fc9482a3ef384b9457dd97e5dab70f2062c2129f7bf2d57c9a",
+      "src/pages/HomePage.tsx": "sha256-718dc2ef699365ec6b4bf4d75d2bfe9588fec5b5a5e039f5000cbc1f11cbe214",
+      "src/pages/NotFoundPage.tsx": "sha256-38c0014319bb1fc6a8a4bbc3ec90bd0a066ecb94eedfc115d9988228e4f49fa8",
+      "src/store/counterStore.ts": "sha256-82856c3fce82f2cff554a146ffc6b2774b8f2cf51cbcf5fa5a7f7561216d0376",
+      "src/test/setup.ts": "sha256-90ec9100c29e008c3d9194acd818e2cfa6dc6e177154bc8e10c5959aa35619ed",
+      "tailwind.config.js": "sha256-97f2df4adb98dbce863f959e098989a2668128e73f53636c46cdbc74f0e018df",
+      "tsconfig.json": "sha256-fe7461427f07595c184ccfc817ae45339fe916313e342ee67da1123d6754ac9e",
+      "tsconfig.node.json": "sha256-27bd24f60eac45a850bcfd15b5c7422f75eee90ce411e27d6d1cecc9a67da605",
+      "vite.config.ts": "sha256-ae8774994183942268bd139d60b83d628e1bf4716edd6800846aea17131901f8",
+      "vitest.config.ts": "sha256-a0c9aec636d4902107113ae068e3fbf69f652ac926bc5dfc5263cf92b84df19f"
+    }
+  }
+}
