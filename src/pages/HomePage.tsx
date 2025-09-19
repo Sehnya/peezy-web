@@ -16,20 +16,20 @@ export function HomePage() {
             className="min-h-screen"
         >
             {/* Hero Section */}
-            <div className="text-center items-center flex relative flex-col justify drop-shadow-md bg-yellow-200 p-10 h-screen">
-                <img src="lemon.png" className='w-96' />
-                <img src="peezy.png" className='w-96' />
-                <p className="text-xl text-[#177455] max-w-3xl mx-auto mt-10 mb-8">
+            <div className="text-center items-center flex relative flex-col justify-center drop-shadow-md bg-yellow-200 px-4 sm:px-6 lg:px-10 py-12 sm:py-16 lg:py-20 min-h-screen">
+                <img src="lemon.png" className='w-48 sm:w-64 md:w-80 lg:w-96' alt="Lemon logo" />
+                <img src="peezy.png" className='w-48 sm:w-64 md:w-80 lg:w-96' alt="Peezy logo" />
+                <p className="text-base sm:text-lg lg:text-xl text-[#177455] max-w-3xl mx-auto mt-6 sm:mt-8 lg:mt-10 mb-6 sm:mb-8 px-4">
                     A next-generation CLI that transforms how developers create, maintain, and distribute modern applications.
                     From curated full-stack templates to intelligent project migrations, Peezy CLI delivers enterprise-grade
                     tooling with developer-first experience.
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 mt-8">
+                <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 w-full max-w-md sm:max-w-none">
                     <Link
                         to="/docs"
-                        className="px-8 py-3 bg-[#177455] text-white rounded-lg font-semibold hover:bg-[#177455]/80 transition-colors"
+                        className="px-6 sm:px-8 py-3 bg-[#177455] text-white rounded-lg font-semibold hover:bg-[#177455]/80 transition-colors text-center"
                     >
                         Get Started
                     </Link>
@@ -37,7 +37,7 @@ export function HomePage() {
                         href="https://github.com/Sehnya/peezy-cli"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-8 py-3 border-2 border-[#177455] text-[#177455] rounded-lg font-semibold hover:bg-[#177455] hover:text-white transition-colors"
+                        className="px-6 sm:px-8 py-3 border-2 border-[#177455] text-[#177455] rounded-lg font-semibold hover:bg-[#177455] hover:text-white transition-colors text-center"
                     >
                         View on GitHub
                     </a>
@@ -52,36 +52,36 @@ export function HomePage() {
                 transition={{ duration: 0.8 }}
                 className="py-20 bg-yellow-100"
             >
-                <div className="max-w-4xl mx-auto px-8 text-center">
-                    <div className="flex items-center justify-center gap-4 mb-8">
-                        <img src="lemon.png" alt="lemon" className="w-12 h-12" />
-                        <h2 className="text-4xl font-bold text-[#177455]">Quick Install</h2>
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-8">
+                        <img src="lemon.png" alt="lemon" className="w-10 h-10 sm:w-12 sm:h-12" />
+                        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#177455]">Quick Install</h2>
                     </div>
 
-                    <p className="text-lg text-[#177455] mb-8">
+                    <p className="text-base sm:text-lg text-[#177455] mb-6 sm:mb-8">
                         Get up and running in seconds with our native binaries
                     </p>
 
-                    <div className="grid md:grid-cols-2 gap-6">
-                        <div className="bg-yellow-200 border border-yellow-300 rounded-lg p-6">
-                            <h3 className="text-xl font-semibold text-[#177455] mb-4">macOS & Linux</h3>
-                            <div className="bg-yellow-100 rounded-lg p-4 font-mono text-sm text-[#177455]">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+                        <div className="bg-yellow-200 border border-yellow-300 rounded-lg p-4 sm:p-6">
+                            <h3 className="text-lg sm:text-xl font-semibold text-[#177455] mb-3 sm:mb-4">macOS & Linux</h3>
+                            <div className="bg-yellow-100 rounded-lg p-3 sm:p-4 font-mono text-xs sm:text-sm text-[#177455] overflow-x-auto">
                                 brew install Sehnya/peezy/peezy
                             </div>
                         </div>
 
-                        <div className="bg-yellow-200 border border-yellow-300 rounded-lg p-6">
-                            <h3 className="text-xl font-semibold text-[#177455] mb-4">Windows</h3>
-                            <div className="bg-yellow-100 rounded-lg p-4 font-mono text-sm text-[#177455]">
+                        <div className="bg-yellow-200 border border-yellow-300 rounded-lg p-4 sm:p-6">
+                            <h3 className="text-lg sm:text-xl font-semibold text-[#177455] mb-3 sm:mb-4">Windows</h3>
+                            <div className="bg-yellow-100 rounded-lg p-3 sm:p-4 font-mono text-xs sm:text-sm text-[#177455] overflow-x-auto">
                                 scoop install peezy
                             </div>
                         </div>
                     </div>
 
-                    <div className="mt-8">
-                        <div className="bg-yellow-200 border border-yellow-300 rounded-lg p-6 max-w-2xl mx-auto">
-                            <h3 className="text-xl font-semibold text-[#177455] mb-4">Universal Installer</h3>
-                            <div className="bg-yellow-100 rounded-lg p-4 font-mono text-sm text-[#177455]">
+                    <div className="mt-6 sm:mt-8">
+                        <div className="bg-yellow-200 border border-yellow-300 rounded-lg p-4 sm:p-6 max-w-2xl mx-auto">
+                            <h3 className="text-lg sm:text-xl font-semibold text-[#177455] mb-3 sm:mb-4">Universal Installer</h3>
+                            <div className="bg-yellow-100 rounded-lg p-3 sm:p-4 font-mono text-xs sm:text-sm text-[#177455] overflow-x-auto">
                                 curl -fsSL https://get.peezy.dev | bash
                             </div>
                         </div>
@@ -97,18 +97,18 @@ export function HomePage() {
                 transition={{ duration: 0.8 }}
                 className="py-20 bg-yellow-200"
             >
-                <div className="max-w-6xl mx-auto px-8">
-                    <div className="text-center mb-16">
-                        <div className="flex items-center justify-center gap-4 mb-8">
-                            <img src="lemon.png" alt="lemon" className="w-12 h-12" />
-                            <h2 className="text-4xl font-bold text-[#177455]">Why Choose Peezy?</h2>
+                <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12 sm:mb-16">
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-8">
+                            <img src="lemon.png" alt="lemon" className="w-10 h-10 sm:w-12 sm:h-12" />
+                            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#177455]">Why Choose Peezy?</h2>
                         </div>
-                        <p className="text-lg text-[#177455] max-w-3xl mx-auto">
+                        <p className="text-base sm:text-lg text-[#177455] max-w-3xl mx-auto px-4">
                             Built for modern developers who value speed, security, and simplicity
                         </p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                         {[
                             {
                                 iconType: "speed" as const,
@@ -167,18 +167,18 @@ export function HomePage() {
                 transition={{ duration: 0.8 }}
                 className="py-20 bg-yellow-100"
             >
-                <div className="max-w-6xl mx-auto px-8">
-                    <div className="text-center mb-16">
-                        <div className="flex items-center justify-center gap-4 mb-8">
-                            <img src="lemon.png" alt="lemon" className="w-12 h-12" />
-                            <h2 className="text-4xl font-bold text-[#177455]">Hero Templates</h2>
+                <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12 sm:mb-16">
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-8">
+                            <img src="lemon.png" alt="lemon" className="w-10 h-10 sm:w-12 sm:h-12" />
+                            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#177455]">Hero Templates</h2>
                         </div>
-                        <p className="text-lg text-[#177455] max-w-3xl mx-auto">
+                        <p className="text-base sm:text-lg text-[#177455] max-w-3xl mx-auto px-4">
                             Production-ready templates that save hours of setup with modern tooling and best practices built-in
                         </p>
                     </div>
 
-                    <div className="grid lg:grid-cols-3 gap-8">
+                    <div className="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
                         {[
                             {
                                 name: "nextjs-fullstack",
@@ -221,7 +221,7 @@ export function HomePage() {
                                     ))}
                                 </div>
 
-                                <div className="bg-yellow-100 rounded-lg p-3 font-mono text-xs text-[#177455] mb-4">
+                                <div className="bg-yellow-100 rounded-lg p-3 font-mono text-xs text-[#177455] mb-4 overflow-x-auto">
                                     $ {template.command}
                                 </div>
 
@@ -247,26 +247,26 @@ export function HomePage() {
                 viewport={{ once: true }}
                 className="py-20 bg-yellow-100"
             >
-                <div className="max-w-4xl mx-auto px-8 text-center">
-                    <div className="flex items-center justify-center gap-4 mb-8">
-                        <img src="lemon.png" alt="lemon" className="w-16 h-16" />
-                        <h2 className="text-4xl font-bold text-[#177455]">Ready to Get Started?</h2>
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-8">
+                        <img src="lemon.png" alt="lemon" className="w-12 h-12 sm:w-16 sm:h-16" />
+                        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#177455]">Ready to Get Started?</h2>
                     </div>
 
-                    <p className="text-xl text-[#177455] mb-8 max-w-2xl mx-auto">
+                    <p className="text-base sm:text-lg lg:text-xl text-[#177455] mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
                         Join thousands of developers who are building faster with Peezy CLI
                     </p>
 
-                    <div className="bg-yellow-200 border border-yellow-300 rounded-lg p-6 max-w-2xl mx-auto mb-8">
-                        <div className="font-mono text-lg text-[#177455]">
+                    <div className="bg-yellow-200 border border-yellow-300 rounded-lg p-4 sm:p-6 max-w-2xl mx-auto mb-6 sm:mb-8">
+                        <div className="font-mono text-sm sm:text-base lg:text-lg text-[#177455] overflow-x-auto">
                             $ peezy new nextjs-fullstack my-next-big-thing
                         </div>
                     </div>
 
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md sm:max-w-none mx-auto">
                         <Link
                             to="/docs"
-                            className="px-8 py-3 bg-[#177455] text-white rounded-lg font-semibold hover:bg-[#177455]/80 transition-colors"
+                            className="px-6 sm:px-8 py-3 bg-[#177455] text-white rounded-lg font-semibold hover:bg-[#177455]/80 transition-colors text-center"
                         >
                             Get Started Now
                         </Link>
@@ -274,7 +274,7 @@ export function HomePage() {
                             href="https://github.com/Sehnya/peezy-cli"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="px-8 py-3 border-2 border-[#177455] text-[#177455] rounded-lg font-semibold hover:bg-[#177455] hover:text-white transition-colors"
+                            className="px-6 sm:px-8 py-3 border-2 border-[#177455] text-[#177455] rounded-lg font-semibold hover:bg-[#177455] hover:text-white transition-colors text-center"
                         >
                             Star on GitHub
                         </a>

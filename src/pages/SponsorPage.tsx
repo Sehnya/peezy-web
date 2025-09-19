@@ -9,13 +9,13 @@ export function SponsorPage() {
             className="min-h-screen bg-yellow-100"
         >
             {/* Hero Section */}
-            <div className="bg-yellow-200 py-20">
-                <div className="max-w-4xl mx-auto px-8 text-center">
-                    <div className="flex items-center justify-center gap-4 mb-8">
-                        <img src="lemon.png" alt="lemon" className="w-16 h-16" />
-                        <h1 className="text-5xl font-bold text-[#177455]">Sponsor Peezy CLI</h1>
+            <div className="bg-yellow-200 py-12 sm:py-16 lg:py-20">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-8">
+                        <img src="lemon.png" alt="lemon" className="w-12 h-12 sm:w-16 sm:h-16" />
+                        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#177455]">Sponsor Peezy CLI</h1>
                     </div>
-                    <p className="text-xl text-[#177455] max-w-3xl mx-auto">
+                    <p className="text-base sm:text-lg lg:text-xl text-[#177455] max-w-3xl mx-auto px-4">
                         Help us build the future of developer tooling. Your sponsorship enables us to create better templates,
                         improve performance, and provide world-class support to the developer community.
                     </p>
@@ -23,16 +23,16 @@ export function SponsorPage() {
             </div>
 
             {/* Why Sponsor Section */}
-            <div className="py-20">
-                <div className="max-w-6xl mx-auto px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl font-bold text-[#177455] mb-4">Why Sponsor Peezy CLI?</h2>
-                        <p className="text-lg text-[#177455] max-w-2xl mx-auto">
+            <div className="py-12 sm:py-16 lg:py-20">
+                <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12 sm:mb-16">
+                        <h2 className="text-2xl sm:text-3xl font-bold text-[#177455] mb-4">Why Sponsor Peezy CLI?</h2>
+                        <p className="text-base sm:text-lg text-[#177455] max-w-2xl mx-auto px-4">
                             Your support directly impacts thousands of developers worldwide
                         </p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                         {[
                             {
                                 title: 'Accelerate Development',
