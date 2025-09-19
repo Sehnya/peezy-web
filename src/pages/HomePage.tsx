@@ -26,7 +26,7 @@ export function HomePage() {
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 w-full max-w-md sm:max-w-none">
+                <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 justify-center items-center w-full max-w-md sm:max-w-none mx-auto">
                     <Link
                         to="/docs"
                         className="px-6 sm:px-8 py-3 bg-[#177455] text-white rounded-lg font-semibold hover:bg-[#177455]/80 transition-colors text-center"
